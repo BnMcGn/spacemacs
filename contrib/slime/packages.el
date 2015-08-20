@@ -51,17 +51,15 @@
           "mee" 'slime-eval-last-sexp
           "mer" 'slime-eval-region
 
-          "mgg" 'slime-inspect-definition
           "mgn" 'slime-next-note
           "mgN" 'slime-previous-note
           "mgp" 'slime-previous-note
+          "mgg" 'slime-edit-definition
+	  "mgb" 'slime-pop-find-definition-stack
+	  "mg C-g" 'slime-edit-definition-other-frame
+	  "mgG" 'slime-edit-definition-other-window
 
-          "mdd" 'slime-edit-definition
-	  "mdD" 'slime-pop-find-definition-stack
-	  "mdu" 'slime-pop-find-definition-stack
-	  "mdf" 'slime-edit-definition-other-frame
-	  "mdw" 'slime-edit-definition-other-window
-
+          "mhi" 'slime-inspect-definition
           "mha" 'slime-apropos
           "mhd" 'slime-disassemble-symbol
           "mhh" 'slime-describe-function

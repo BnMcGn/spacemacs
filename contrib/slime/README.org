@@ -43,6 +43,7 @@ of Common Lisp, you can specify it in your =~/.spacemacs=
 
 | Key Binding | Description        |
 |-------------+--------------------|
+| ~SPC m h i~ | Inspect definition |
 | ~SPC m h a~ | SLIME apropos      |
 | ~SPC m h d~ | Disassemble symbol |
 | ~SPC m h h~ | Describe function  |
@@ -74,19 +75,13 @@ of Common Lisp, you can specify it in your =~/.spacemacs=
 | ~SPC m c f~ | Compile function         |
 | ~SPC m c r~ | Compile region           |
 
-** Definition
+** Navigation
 
 | Key Binding               | Description                     |
 |---------------------------+---------------------------------|
-| ~SPC m d d~               | Go to definition                |
-| ~SPC m d u~ or ~SPC m d D | Return from definition          |
-| ~SPC m d w~               | Open definition in other window |
-| ~SPC m d f~               | Open definition in other frame  |
-
-** Navigation
-
-| Key Binding               | Description        |
-|---------------------------+--------------------|
-| ~SPC m g g~               | Inspect definition |
-| ~SPC m g n~               | Next note          |
-| ~SPC m g N~ or ~SPC m g p | Previous note      |
+| ~SPC m g n~               | Next note                       |
+| ~SPC m g N~ or ~SPC m g p | Previous note                   |
+| ~SPC m g g~               | Go to definition                |
+| ~SPC m g b~               | Return from definition          |
+| ~SPC m g G~               | Open definition in other window |
+| ~SPC m g C-g~             | Open definition in other frame  |
